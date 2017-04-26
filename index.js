@@ -1,4 +1,4 @@
-var controller = require('ga4gh-base-controller');
+var controller = require('ga4gh-base-controller')({});
 
 var options =   {
   grpc: {
