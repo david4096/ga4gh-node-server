@@ -11,6 +11,6 @@ var options =   {
   controller: controller
 };
 
-var gateway = require('../ga4gh-node-gateway/src/server');
+var gateway = require('ga4gh-node-gateway');
 console.log(gateway)
 gateway.main(options);
